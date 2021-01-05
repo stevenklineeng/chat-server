@@ -2,9 +2,9 @@ Hello! I am Steven Kline, and this is a code that I created that functions as a 
 implement this. I hope you like it!
 
 COMPILE:
-  server:
+  server: gcc chat_server.c -lpthread -o chat_server
   client: gcc chat_client.c -lpthread -o chat_client
 
 RUN:
-  server:
+  server: ./chat_server <port_number>
   client: ./chat_client <IP_address> <port_number> <username>
