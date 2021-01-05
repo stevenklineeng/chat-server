@@ -3,8 +3,8 @@ implement this. I hope you like it!
 
 COMPILE:
   server:
-  client:
+  client: gcc chat_client.c -lpthread -o chat_client
 
 RUN:
   server:
-  client:
+  client: ./chat_client <IP_address> <port_number> <username>
